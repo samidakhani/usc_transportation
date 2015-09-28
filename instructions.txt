@@ -12,34 +12,34 @@ NOTE:
 
       Please check the jdbc connection,username and password on the system being executed
 
-1. Create a folder named 'Homework2' on Desktop.
+1. Create a folder named 'Usc_transport' on Desktop.
 
-2. Place the 2 files in the 'Homework2' folder.
+2. Place the 2 files in the 'Usc_transport' folder.
          a. 'databaseDriver'
          b. 'sdoapi'
 
 3. Right click on the file 'databaseDriver' and perform 'Extract Here'.
-   The extracted files will appear in the same 'Homework2' folder.
+   The extracted files will appear in the same 'Usc_transport' folder.
    This folder will contain 3 folder that are extacted.Namely
         a.'javax'
         b.'META-INF'
         c. 'oracle'
 
 4. Now, in the 'sdoapi' zip folder Go to 'oracle' folder
-          ie 'Homework2'--->'sdoapi'--->'oracle'
+          ie 'Usc_transport'--->'sdoapi'--->'oracle'
   You will find a folder named 'sdoapi'.
   Copy this folder.
 
-5. Paste the copied folder into 'oracle' folder found at 'Homework2'--->'oracle'.
+5. Paste the copied folder into 'oracle' folder found at 'Usc_transport'--->'oracle'.
    Now we are done with configuring the JDBC.
 
 6. Copy and Paste the 'Hw2.java' file into the 'HomeWork2' folder.
 
 7. Open the command prompt.
 
-8. Execute the following command  -----'cd Desktop\Homework2'.
+8. Execute the following command  -----'cd Desktop\Usc_transport'.
    
-9. Execute the following command  -----'javac Hw2.java'.
+9. Execute the following command  -----'javac usc_transport.java'.
 
-10.Execute the following command  -----'java Hw2 window student 200 200 400 400'.
+10.Execute the following command  -----'java usc_transport window student 200 200 400 400'.
    This executes the 1st query.Similary execute the remaing queries.
